@@ -1,5 +1,3 @@
-import React from 'react'
-
 const App = () => {
   return (
     <>
@@ -87,23 +85,23 @@ const App = () => {
                   <div className='font-semibold mb-2'>Nurse / Healthcare Assistant, NHS Bristol, Derby</div>
                   <div className='pl-4'>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Healthcare Assistant (HCA), working throughout the NHS trust performing different
                         tasks, predominantly close contact with people of different presentations, cultures, 
                         abilities (including disabilities)
                       </div>
                     </div>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Can work in unpredictable circumstances, remain calm in difficult situations simultaneously
                         supporting other disciplines
                       </div>
                     </div>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Confidentiality, dignity and respect to patients and colleagues with awareness of legal
                         practice, policies and standards and general administration
                       </div>
@@ -115,22 +113,22 @@ const App = () => {
                   <div className='font-semibold mb-2'>Application Support Analyst, Huboo Bristol</div>
                   <div className='pl-4'>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Resolving collated API data errors and ensuring goods reach clients correctly
                       </div>
                     </div>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Using SQL and in-house software to perform necessary tasks optimally
                       </div>
                     </div>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Helped Huboo achieve it's first 100% delivery since it's inception. Helped the marketing team
-                        with online review awareness and strategy to improve this
+                        with online review awareness and strategy to improve the public image
                       </div>
                     </div>
                   </div>
@@ -140,20 +138,20 @@ const App = () => {
                   <div className='font-semibold mb-2'>Clinical IT Support, Oncology Dept., Bristol</div>
                   <div className='pl-4'>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Oncology treatment/imaging software (MosaiQ, RayStation), LINUX
                       </div>
                     </div>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Remote access, problem solving, investigating broken software & hardware
                       </div>
                     </div>
                     <div className='flex'>
-                      <span className='flex-1 px-4 text-sm'>❯❯</span>
-                      <div className='flex-20'>
+                      <span className='flex-1 px-4 text-sm translate-y-1'>❯❯</span>
+                      <div className='w-110'>
                         Responding to emails and queries to Scientific Computing Support
                       </div>
                     </div>
@@ -178,7 +176,7 @@ const App = () => {
             <div className="flex">
             <div className='flex-1 [writing-mode:vertical-rl] tracking-wider uppercase font-semibold text-slate-500 pt-5 pr-2'><span className='text-red-400'>❯❯</span> Other Professional Skills</div>
             <div className='flex-7 border-l border-dashed border-slate-500 p-3 text-zinc-500'>
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>Web Applications</h2>
                 <div className="text-sm text-cyan-500 font-semibold">
                   <div>
@@ -217,8 +215,8 @@ const App = () => {
                     </a>
                   </div>
                   <div>
-                    <a className='mb-2 px-4' href="https://dashboard-1-ftx2.onrender.com/" target="_blank" rel="noopener noreferrer">
-                      Weather-Orr-Not?
+                    <a className='mb-2 px-4' href="https://butt-scratcher.netlify.app/" target="_blank" rel="noopener noreferrer">
+                      Butt Scratcher
                     </a>
                   </div>
                   <div>
@@ -230,26 +228,118 @@ const App = () => {
                 </div>
               </div>
 
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>Programming & Stack</h2>
                 <div className="text-sm">
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>React</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>JS / TS</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>HTML5 / CSS3</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Vite</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Tailwind</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Node</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Express</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>MongoDB</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Mongoose</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>SQL</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Vite</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Svelte</span>Skill Bar</div>
-                  <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Vue</span>Skill Bar</div>
+
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>React</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "55%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>JS / TS</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "60%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>HTML5</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "70%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>CSS3</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "70%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Vite</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "75%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Tailwind</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "70%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Node</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "50%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Express</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "45%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>MongoDB</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "55%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Mongoose</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "45%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>SQL</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "25%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Svelte</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "25%"}}></div>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-1">
+                      <span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Vue</span> 
+                    </div>
+                    <div className="w-24 bg-slate-200 h-2.5 rounded-sm translate-y-1.5">
+                      <div className="bg-cyan-500 h-full rounded-full" style={{"width": "35%"}}></div>
+                    </div>
+                  </div>                
                 </div>
               </div>
 
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>Frameworks / Libraries</h2>
                 <div className="text-sm">
                   <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Accessiblity</span></div>
@@ -271,7 +361,7 @@ const App = () => {
                 </div>
               </div>
 
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>Operating Systems</h2>
                 <div className="text-sm">
                   <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Windows 11</span></div>
@@ -282,7 +372,7 @@ const App = () => {
                 </div>
               </div>
 
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>Personal</h2>
                 <div className="text-sm">
                   <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Problem Solving</span></div>
@@ -298,7 +388,7 @@ const App = () => {
                 </div>
               </div>
 
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>Creative & Interests</h2>
                 <div className="text-sm">
                   <div><span className='px-4 text-cyan-500'>❯❯</span><span className='font-semibold'>Snowboarding</span></div>
@@ -309,7 +399,7 @@ const App = () => {
                 </div>
               </div>
 
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='font-semibold'>References</h2>
                 <div className="text-sm">Available upon request</div>
               </div>
