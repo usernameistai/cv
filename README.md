@@ -1,75 +1,39 @@
-# React + TypeScript + Vite
+# 📄 david-battye-cv
+> **Status:** `ONLINE` | **Clearance:** `OPERATOR_LEVEL_1`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/Frontend-React_19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF?logo=vite)
+![Tailwind](https://img.shields.io/badge/Styling-Tailwind_CSS-38BDF8?logo=tailwindcss)
 
-Currently, two official plugins are available:
+A high-frequency professional profile uplink and interactive curriculum vitae. Engineered with a terminal-inspired, clean mission HUD layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📑 OPERATIONAL DIRECTIVES
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 01. PROFILE UPLINK
+A comprehensive breakdown of professional history, spanning data-driven web development, technical support, and scientific analysis (MSc IT, MSc Medical Physics, BSc Physics with Astrophysics).
 
-## Expanding the ESLint configuration
+### 02. SKILL & STACK TELEMETRY
+Real-time percentage-bar metrics representing core competencies across modern web frameworks, systems, and tooling, built using custom Tailwind grid layouts.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 03. MISSION LOGS (PORTFOLIO UPLINKS)
+Direct links to deployed web applications and dashboards, including cryptographic trackers, health logs, and utility tools.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ TECH SPECS
+- **Core:** React, TypeScript, Vite
+- **Styling:** Tailwind CSS (with custom vertical writing modes and responsive layout grids)
+- **Deployment:** Netlify Ready
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## 🚀 DEPLOYMENT DIRECTIVES
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+To initialize the CV workspace locally:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+1. **Install dependencies:**
+   ```bash
+   npm install
