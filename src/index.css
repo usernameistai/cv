@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* & is current selector */
+/* :where adds zero css specificity */
+/* .dark * means every descendent */
+/* Whenever an element (or one of its parents) has a 
+class called dark, activate every dark: utility */
+
+
 /* :root {
   --text: #6b6375;
   --text-h: #08060d;
