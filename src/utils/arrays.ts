@@ -1,3 +1,14 @@
+export const msc = [
+  { module: 'Machine Learning & Predictive Analysis', result: '73'},
+  { module: 'Big Data', result: '71'}, 
+  { module: 'Digital Design & Development (DDD) ', result: '71'},
+  { module: 'Information Security', result: '67'}, 
+  { module: 'Project Management', result: '70'},
+  { module: 'Professionalism & Governance in IT', result: '63'}, 
+  { module: 'Group Software Development Project', result: '72'},
+  { module: 'Dissertation', result: '65'}, 
+];
+
 export const workSkillsBRI = [
   { skill: 'Healthcare Assistant (HCA), working throughout the NHS trust performing different tasks, predominantly close contact with people of different presentations, cultures, abilities (including disabilities)'},
   { skill: 'Can work in unpredictable circumstances, remain calm in difficult situations simultaneously supporting other disciplines'},
