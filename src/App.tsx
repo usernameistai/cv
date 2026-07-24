@@ -290,7 +290,7 @@ const App = () => {
 
                   <div className='mb-5'>
                     <h2 className='font-semibold'>References</h2>
-                    <div className="text-sm">Available upon request</div>
+                    <div className="text-sm">Available upon request 👊✨🛰️</div>
                   </div>
                 </div>
               </div>
