@@ -33,7 +33,7 @@ const App = () => {
             <div className='space-y-2 m-2 text-slate-700 dark:text-slate-200'>
               <div className='flex items-center justify-center mx-0 p-4 rounded-md shadow-md dark:shadow-white/20 border-r border-b border-slate-500 dark:border-slate-300 font-semibold'>
                 <CiMail className="text-xl shrink-0"/> 
-                <span className="ml-2"><a href="mailto:battye_david@yahoo.co.uk">battye_david@yahoo.co.uk</a></span>
+                <span className="ml-2"><a href="mailto:battye_david@yahoo.co.uk" className="transition-colors hover:text-indigo-500 dark:hover:text-indigo-300">battye_david@yahoo.co.uk</a></span>
               </div>
               <div className='p-4 rounded-md shadow-md dark:shadow-white/20 border-r border-b border-slate-500 dark:border-slate-300'>
                 <div className="flex items-center justify-center">
@@ -44,7 +44,7 @@ const App = () => {
               </div>
               <div className='flex items-center justify-center p-4 rounded-md shadow-md dark:shadow-white/20 border-r border-b border-slate-500 dark:border-slate-300 font-semibold'>
                 <CiPhone className="text-xl shrink-0"/> 
-                <div className="ml-2"><a href="tel:07815006469" className="transition-colors hover:text-indigo-500! dark:hover:text-indigo-300">07815006469</a></div>
+                <div className="ml-2"><a href="tel:07815006469" className="transition-colors hover:text-indigo-500 dark:hover:text-indigo-300">07815006469</a></div>
               </div>
             </div>
             <div className='md:flex-1 my-2 p-4 w-full md:w-60 items-center shadow-lg dark:shadow-white/20 bg-indigo-500 dark:bg-indigo-700 text-white font-semibold rounded-lg space-y-2'>
@@ -52,7 +52,7 @@ const App = () => {
               <div>MSc Medical Physics <span className='text-neutral-400'><a href="https://www.open.ac.uk/" target='_blank' rel="noopener noreferrer">(OU)</a></span></div>
               <div className="">BSc Physics with Astrophysics <span className='text-neutral-400'><a href="https://www.bristol.ac.uk/" target='_blank' rel="noopener noreferrer">(University of Bristol)</a></span></div>
               <div className="border-t border-zinc-300">
-                <a target='_blank' href='https://github.com/usernameistai' className="my-2 px-3 py-2 font-semibold inline-block rounded shadow-md hover:shadow-none transition-transform duration-300 bg-indigo-600 hover:bg-indigo-700">GitHub Repo. → usernameistai</a>
+                <a target='_blank' href='https://github.com/usernameistai' className="my-2 px-3 py-2 font-semibold inline-block rounded shadow-md hover:shadow-none focus:shadow-none transition-transform duration-300 bg-indigo-600 hover:bg-indigo-700">GitHub Repo. → usernameistai</a>
               </div>
             </div>
           </aside>
