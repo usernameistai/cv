@@ -27,6 +27,16 @@ export const workSkillsBRIIT = [
   { skill: 'Responding to emails and queries to Scientific Computing Support' },
 ];
 
+export const interestingJobs = [
+  { job: 'Ass. Manager', location: 'Great Expectations - Reading', year: '00 - 01' },
+  { job: 'Sous Chef', location: 'Serre Chevalier, Les Alpes', year: '05 - 06' },
+  { job: 'Barista', location: 'Caffe Neros - Bristol', year: '03 - 05' },
+  { job: 'Radio Co-Host', location: 'UoB Burst Radio', year: '05' },
+  { job: 'Data Administrator', location: 'Williams Lea Bristol', year: '14' },
+  { job: 'Occasional Gardener', location: 'Somerset', year: '12 - 22' },
+  { job: 'Barman, Factory Worker, TEFL', location: 'Derby, etc.', year: '98 - 06' },
+];
+
 export const websites = [
   { name: 'Awesome Portfolio', url: 'https://awesome-portfolio-two.netlify.app/' },
   { name: 'HelpMe-Car', url: 'https://helpme-car.herokuapp.com/' },

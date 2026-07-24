@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT,
-  websites, frameworks, os, personal, hobbies, programmingSkills 
+import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT, interestingJobs,
+  websites, frameworks, os, personal, hobbies, programmingSkills, 
+  
 } from "./utils/arrays";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
 
@@ -12,7 +13,7 @@ const App = () => {
     setDark(isDark);
   };
 
-  const chevron = "px-2 px-4 text-sm text-cyan-500 dark:text-cyan-300";
+  const chevron = "px-4 text-sm text-cyan-500 dark:text-cyan-300";
   const chevronTwo = "px-2 md:px-4 text-sm translate-y-1 text-cyan-500 dark:text-cyan-300";
   const perpendicular = "flex-start text-sm md:text-base [writing-mode:vertical-rl] tracking-wider uppercase font-semibold pt-5 pr-2";
   const writing = "px-5 md:p-3 text-sm md:text-base border-l border-dashed border-slate-500 dark:border-slate-300 text-zinc-500 dark:text-zinc-100";
@@ -128,7 +129,7 @@ const App = () => {
                         </span>
                         Healthcare / Nurse Assistant, NHS Bristol, Derby
                       </summary>
-                      <div className='pl-2 md:pl-4'>
+                      <div className='md:pl-4'>
                         {workSkillsBRI.map((work, id) => (
                           <div key={id} className='flex'>
                             <span className={chevronTwo}>❯❯</span>
@@ -148,7 +149,7 @@ const App = () => {
                         </span>
                         Application Support Analyst, Huboo Bristol
                       </summary>
-                      <div className='pl-2 md:pl-4'>
+                      <div className='md:pl-4'>
                         {workSkillsHuboo.map((work, id) => (
                           <div key={id} className='flex'>
                             <span className={chevronTwo}>❯❯</span>
@@ -168,7 +169,7 @@ const App = () => {
                         </span>
                         Clinical IT Support, Oncology Dept. Bristol
                       </summary>
-                      <div className='pl-2 md:pl-4'>
+                      <div className='md:pl-4'>
                         {workSkillsBRIIT.map((work, id) => (
                           <div key={id} className='flex'>
                             <span className={chevronTwo}>❯❯</span>
@@ -188,14 +189,15 @@ const App = () => {
                         </span>
                         Other interesting positions
                       </summary>
-                      <div className='pl-2 md:pl-4 text-xs md:text-base'>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Assistant Manager</span>@Great Expectations - Reading<span className='font-semibold ml-2'>00 - 01</span></div>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Assistant / Sous Chef</span>Serre Chevalier, Les Alpes<span className='font-semibold ml-2'>05 - 06</span></div>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Barista</span>Caffe Neros - Bristol<span className='font-semibold ml-2'>03 - 05</span></div>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Uni of Bristol Radio - Burst</span>Co Host<span className='font-semibold ml-2'>05</span></div>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Data Entry - Williams Lea</span>Bristol<span className='font-semibold ml-2'>'14</span></div>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Occasional Gardener - HHH</span>Theale, Somerset<span className='font-semibold ml-2'>12 - 22</span></div>
-                        <div><span className={chevron}>❯❯</span><span className='font-semibold mr-2'>Barman, Factory Worker, TEFL</span>Derby, Reading, Bristol<span className='font-semibold ml-2'>98 - 06</span></div>
+                      <div className='md:pl-4 text-xs md:text-base'>
+                        {interestingJobs.map((interesting, id) => (
+                          <div key={id} className="md:w-110">
+                            <span className={chevron}>❯❯</span>
+                            <span className='font-semibold md:mr-2'>{interesting.job}</span>
+                            <span> {interesting.location}</span>
+                            <span className='font-semibold ml-2 hidden md:inline-block'>{interesting.year}</span>
+                          </div>
+                        ))}
                       </div>
                     </details>
                   </div>
