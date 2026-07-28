@@ -86,33 +86,58 @@ const App = () => {
               <div className='flex mb-5'>
                 <div className={perpendicular}><span className='text-red-400 dark:text-red-200'>❯❯</span> <span className="text-slate-500 dark:text-slate-300">Education</span></div>
                 <div className={writing}>
+
                   <div className='mb-5'>
                     <div className='font-semibold'>09.2016 - 11.2018</div>
-                    <div className='font-semibold'>MSc in Information Technology (Merit), University of the West of England (UWE)</div>
-                    <div className='md:pl-4'>
-                      <div>Modules included:</div>
-                      {msc.map((msc, id) => (
-                        <div key={id} className="-ml-2 md:ml-0">
-                          <span className={chevron}>❯❯</span><span className='font-semibold'>{msc.module}</span><span className="hidden md:inline"> - {msc.result}%</span>
-                        </div>
-                      ))}
-                      <div className='pl-7'>“Is there a need for Green IT 3.0? 
-                      - A study to investigate the feasibility and acceptability of Virtual Reality 
-                      (VR), as a ‘Green IT’ enabler and emerging technology for IT Professionals.” </div>
-                    </div>
+                    <details className="group">
+                      <summary className={summary}>
+                        <span className={chevSpan}>
+                          ❯
+                        </span>MSc in Information Technology (Merit), University of the West of England (UWE)
+                      </summary>
+                      <div className='md:pl-4'>
+                        <div>Modules included:</div>
+                        {msc.map((msc, id) => (
+                          <div key={id} className="-ml-2 md:ml-0">
+                            <span className={chevron}>❯❯</span><span className='font-semibold'>{msc.module}</span><span className="hidden md:inline"> - {msc.result}%</span>
+                          </div>
+                        ))}
+                        <div className='pl-7'>“Is there a need for Green IT 3.0? 
+                        - A study to investigate the feasibility and acceptability of Virtual Reality 
+                        (VR), as a ‘Green IT’ enabler and emerging technology for IT Professionals.” </div>
+                      </div>
+                    </details>
                   </div>
+
                   <div className='mb-5'>
                     <div className='font-semibold'>01.2009 - 10.2010</div>
-                    <div className='font-semibold'>MSc Medical Physics, The Open University (OU)</div>
-                    <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Combined MSc</span> - 64%</div>
-                    <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Dissertation</span> - 65%</div>
-                    <div className='pl-11'>“Dose Reduction Strategies using CTPA (Computed Tomography Pulmonary Angiography)”</div>
+                    <details className="group">
+                      <summary className={summary}>
+                        <span className={chevSpan}>
+                          ❯
+                        </span>
+                        MSc Medical Physics, The Open University (OU)
+                      </summary>
+                      <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Combined MSc</span> - 64%</div>
+                      <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Dissertation</span> - 65%</div>
+                      <div className='pl-11'>“Dose Reduction Strategies using CTPA (Computed Tomography Pulmonary Angiography)”</div>
+                    </details>
                   </div>
+
                   <div className='mb-5'>
                     <div className='font-semibold'>10.2001 - 07.2005</div>
-                    <div className='font-semibold'>BSc Physics with Astrophysics (Hons), The University of Bristol</div>
-                    <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Dissertation</span> - 63%</div>
-                    <div className='pl-11'>“The Bianchi Identities and their Role in General Relativity”</div>
+                    <details className="group">
+                      <summary className={summary}>
+                        <span className={chevSpan}>
+                          ❯
+                        </span>
+                        BSc Physics with Astrophysics (Hons), The University of Bristol
+                      </summary>
+                      <div className="md:pl-4">
+                        <span className={chevron}>❯❯</span><span className='font-semibold'>Dissertation</span> - 63%
+                        <div className='pl-11'>“The Bianchi Identities and their Role in General Relativity”</div>
+                      </div>
+                    </details>
                   </div>
                 </div>
               </div>
