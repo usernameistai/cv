@@ -4,7 +4,7 @@ import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT, interestingJobs,
   
 } from "./utils/arrays";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
-import PersSkills from "./components/persSkills";
+import PersSkills from "./components/PersSkills";
 
 const App = () => {
   const [dark, setDark] = useState(false);
