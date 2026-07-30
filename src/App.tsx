@@ -4,6 +4,7 @@ import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT, interestingJobs,
   
 } from "./utils/arrays";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
+import PersSkills from "./components/persSkills";
 
 const App = () => {
   const [dark, setDark] = useState(false);
@@ -50,9 +51,11 @@ const App = () => {
             <div className='md:flex-1 my-2 p-4 w-full md:w-60 items-center shadow-lg dark:shadow-white/20 bg-indigo-500 dark:bg-indigo-700 text-white font-semibold rounded-lg space-y-2'>
               <div>MSc Information Technology <span className='text-neutral-400'><a href="https://www.uwe.ac.uk/" target='_blank' rel="noopener noreferrer">(UWE)</a></span></div>
               <div>MSc Medical Physics <span className='text-neutral-400'><a href="https://www.open.ac.uk/" target='_blank' rel="noopener noreferrer">(OU)</a></span></div>
-              <div className="">BSc Physics with Astrophysics <span className='text-neutral-400'><a href="https://www.bristol.ac.uk/" target='_blank' rel="noopener noreferrer">(University of Bristol)</a></span></div>
+              <div>BSc Physics with Astrophysics <span className='text-neutral-400'><a href="https://www.bristol.ac.uk/" target='_blank' rel="noopener noreferrer">(University of Bristol)</a></span></div>
               <div className="border-t border-zinc-300">
-                <a target='_blank' href='https://github.com/usernameistai' className="my-2 px-3 py-2 font-semibold inline-block rounded shadow-md hover:shadow-none focus:shadow-none transition-transform duration-300 bg-indigo-600 hover:bg-indigo-700">GitHub Repo. → usernameistai</a>
+                <button className="mt-4 px-3 py-2 font-semibold inline-block rounded shadow-md hover:shadow-none focus:shadow-none transition-transform duration-300 bg-indigo-600 hover:bg-indigo-700">
+                  <a target='_blank' href='https://github.com/usernameistai' className="">GitHub Repo. → usernameistai</a>
+                </button>
               </div>
             </div>
           </aside>
@@ -93,7 +96,9 @@ const App = () => {
                       <summary className={summary}>
                         <span className={chevSpan}>
                           ❯
-                        </span>MSc in Information Technology (Merit), University of the West of England (UWE)
+                        </span>
+                        MSc Information Technology (Merit), 
+                        <a className="pl-1" href="https://www.uwe.ac.uk/" target="_blank" rel="noopener noreferrer">University of the West of England (UWE)</a>
                       </summary>
                       <div className='md:pl-4'>
                         <div>Modules included:</div>
@@ -116,7 +121,8 @@ const App = () => {
                         <span className={chevSpan}>
                           ❯
                         </span>
-                        MSc Medical Physics, The Open University (OU)
+                        MSc Medical Physics, 
+                        <a className="pl-1" href="https://www.open.ac.uk/" target="_blank" rel="noopener noreferrer">The Open University (OU)</a>
                       </summary>
                       <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Combined MSc</span> - 64%</div>
                       <div className='md:pl-4 -ml-2 md:ml-0'><span className={chevron}>❯❯</span><span className='font-semibold'>Dissertation</span> - 65%</div>
@@ -131,7 +137,8 @@ const App = () => {
                         <span className={chevSpan}>
                           ❯
                         </span>
-                        BSc Physics with Astrophysics (Hons), The University of Bristol
+                        BSc Physics with Astrophysics (Hons),
+                        <a className="pl-1" href="https://www.bristol.ac.uk/" target="_blank" rel="noopener noreferrer">The University of Bristol</a>
                       </summary>
                       <div className="md:pl-4">
                         <span className={chevron}>❯❯</span><span className='font-semibold'>Dissertation</span> - 63%
@@ -152,7 +159,9 @@ const App = () => {
                         <span className={chevSpan}>
                           ❯
                         </span>
-                        Healthcare / Nurse Assistant, NHS Bristol, Derby
+                        Healthcare / Nurse Assistant, 
+                        <a className="pl-1" href="https://www.uhbristol.nhs.uk/" target="_blank" rel="noopener noreferrer">BRI,</a>
+                        <a className="pl-1" href="https://www.uhdb.nhs.uk/" target="_blank" rel="noopener noreferrer">Derby</a>
                       </summary>
                       <div className='md:pl-4'>
                         {workSkillsBRI.map((work, id) => (
@@ -172,7 +181,8 @@ const App = () => {
                         <span className={chevSpan}>
                           ❯
                         </span>
-                        Application Support Analyst, Huboo Bristol
+                        Application Support Analyst, 
+                        <a className="pl-1" href="https://huboo.com/" target="_blank" rel="noopener noreferrer">Huboo,</a> Bristol
                       </summary>
                       <div className='md:pl-4'>
                         {workSkillsHuboo.map((work, id) => (
@@ -192,7 +202,8 @@ const App = () => {
                         <span className={chevSpan}>
                           ❯
                         </span>
-                        Clinical IT Support, Oncology Dept. Bristol
+                        Clinical IT Support, Oncology Dept. 
+                        <a className="pl-1" href="https://www.uhbristol.nhs.uk/" target="_blank" rel="noopener noreferrer">BRI</a>
                       </summary>
                       <div className='md:pl-4'>
                         {workSkillsBRIIT.map((work, id) => (
@@ -238,10 +249,10 @@ const App = () => {
                   
                   <div className='mb-5'>
                     <h2 className='font-semibold pb-1'>Web Applications</h2>
-                    <div className="text-sm text-cyan-500 dark:text-cyan-300 font-semibold tracking-wider">
+                    <div className="text-sm text-cyan-500 dark:text-cyan-300 font-semibold tracking-wide">
                       {websites.map((web, id) => (
-                        <div key={id} className="pb-0.5 hover:scale-105">
-                          <a className='mb-2 px-4' href={web.url} target="_blank" rel="noopener noreferrer">
+                        <div key={id} className="py-0.5">
+                          <a className='flex items-center px-4 py-1 rounded-md text-cyan-500 dark:text-cyan-300 transition-all duration-300 hover:bg-cyan-500/10 hover:translate-x-0.5' href={web.url} target="_blank" rel="noopener noreferrer">
                             {web.name}
                           </a>
                         </div>
@@ -265,57 +276,45 @@ const App = () => {
                     </div>
                   </div>
 
-                  <div className='mb-5'>
-                    <h2 className='font-semibold pb-1'>Frameworks / Libraries</h2>
-                    <div className="text-sm">
-                      {frameworks.map((frame, id) => (
-                        <div key={id}>
-                          <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
-                          <span className='font-semibold'>{frame.work}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <PersSkills title="Frameworks / Libraries"
+                    children={frameworks.map((frame, id) => (
+                      <div key={id}>
+                        <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
+                        <span className='font-semibold'>{frame.work}</span>
+                      </div>
+                    ))}
+                  />
 
-                  <div className='mb-5'>
-                    <h2 className='font-semibold pb-1'>Operating Systems</h2>
-                    <div className="text-sm">
-                      {os.map((o, id) => (
-                        <div key={id}>
-                          <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
-                          <span className='font-semibold'>{o.sys}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <PersSkills title="Operating Systems"
+                    children={os.map((o, id) => (
+                      <div key={id}>
+                        <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
+                        <span className='font-semibold'>{o.sys}</span>
+                      </div>
+                    ))}
+                  />
 
-                  <div className='mb-5'>
-                    <h2 className='font-semibold pb-1'>Personal</h2>
-                    <div className="text-sm">
-                      {personal.map((persy, id) => (
-                        <div key={id}>
-                          <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
-                          <span className='font-semibold'>{persy.attribute}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <PersSkills title="Personal"
+                    children={personal.map((persy, id) => (
+                      <div key={id}>
+                        <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
+                        <span className='font-semibold'>{persy.attribute}</span>
+                      </div>
+                    ))}
+                  />
 
-                  <div className='mb-5'>
-                    <h2 className='font-semibold pb-1'>Creative & Interests</h2>
-                    <div className="text-sm">
-                      {hobbies.map((hobby, id) => (
-                        <div key={id}>
-                          <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
-                          <span className='font-semibold'>{hobby.enjoy}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <PersSkills title="Creative & Interests"
+                    children={hobbies.map((hobby, id) => (
+                      <div key={id}>
+                        <span className='px-4 text-cyan-500 dark:text-cyan-300'>❯❯</span>
+                        <span className='font-semibold'>{hobby.enjoy}</span>
+                      </div>
+                    ))}
+                  />
 
                   <div className='mb-5'>
                     <h2 className='font-semibold'>References</h2>
-                    <div className="text-sm">Available upon request 👊✨🛰️</div>
+                    <div className="text-sm">Available upon request</div>
                   </div>
                 </div>
               </div>
