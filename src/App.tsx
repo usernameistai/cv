@@ -28,7 +28,7 @@ const App = () => {
           <aside className='relative md:flex mb-4'>
             <div className='flex-1 m-2 my-10 text-center items-center font-semibold text-3xl sm:text-4xl md:text-5xl text-indigo-500 dark:text-indigo-200'>
               <div className='p-3'>DAVID J.J.</div>
-              <div className='p-3'>BATTYE</div>AZ\Q
+              <div className='p-3'>BATTYE</div>
             </div>
             <div className='space-y-2 m-2 text-slate-700 dark:text-slate-200'>
               <div className='flex items-center justify-center mx-0 p-4 rounded-md shadow-md dark:shadow-white/20 border-r border-b border-slate-500 dark:border-slate-300 font-semibold'>
