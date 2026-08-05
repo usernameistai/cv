@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT, interestingJobs,
-  websites, frameworks, os, personal, hobbies, programmingSkills, 
-  
+  websites, frameworks, os, personal, hobbies, programmingSkills
 } from "./utils/arrays";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
 import PersSkills from "./components/PersSkills";
@@ -15,7 +14,7 @@ const App = () => {
   };
 
   const chevron = "px-4 text-sm text-cyan-500 dark:text-cyan-300";
-  const chevronTwo = "px-2 md:px-4 text-sm translate-y-1 text-cyan-500 dark:text-cyan-300";
+  const chevronTwo = "px-2 md:px-4 text-sm translate-y-px md:translate-y-1 text-cyan-500 dark:text-cyan-300";
   const perpendicular = "flex-start text-sm md:text-base [writing-mode:vertical-rl] tracking-wider uppercase font-semibold pt-5 pr-2";
   const writing = "px-5 md:p-3 text-sm md:text-base border-l border-dashed border-slate-500 dark:border-slate-300 text-zinc-500 dark:text-zinc-100";
   const summary = "text-sm md:text-base font-semibold mb-2 cursor-pointer list-none";
@@ -29,7 +28,7 @@ const App = () => {
           <aside className='relative md:flex mb-4'>
             <div className='flex-1 m-2 my-10 text-center items-center font-semibold text-3xl sm:text-4xl md:text-5xl text-indigo-500 dark:text-indigo-200'>
               <div className='p-3'>DAVID J.J.</div>
-              <div className='p-3'>BATTYE</div>
+              <div className='p-3'>BATTYE</div>AZ\Q
             </div>
             <div className='space-y-2 m-2 text-slate-700 dark:text-slate-200'>
               <div className='flex items-center justify-center mx-0 p-4 rounded-md shadow-md dark:shadow-white/20 border-r border-b border-slate-500 dark:border-slate-300 font-semibold'>
