@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT, interestingJobs,
-  websites, frameworks, os, personal, hobbies, programmingSkills
+import { msc, workSkillsBRI, workSkillsHuboo, workSkillsBRIIT, 
+  interestingJobs, websites, frameworks, os, personal, hobbies, 
+  programmingSkills,
 } from "./utils/arrays";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
 import PersSkills from "./components/PersSkills";
