@@ -26,8 +26,8 @@ const App = () => {
       <div className='min-h-dvh max-w-5xl p-5 lg:mx-auto dark:bg-zinc-700'>
         <div className="max-w-5xl">
           
-          <aside className='relative md:flex mb-4'>
-            <div className='flex-1 m-2 my-10 text-center items-center font-semibold text-3xl sm:text-4xl md:text-5xl text-indigo-500 dark:text-indigo-200'>
+          <aside className='relative flex flex-col md:flex-row mb-4'>
+            <div className='flex-1 m-2 md:my-10 text-center items-center font-semibold text-3xl sm:text-4xl md:text-5xl text-indigo-500 dark:text-indigo-200'>
               <div className='p-3'>DAVID J.J.</div>
               <div className='p-3'>BATTYE</div>
             </div>
@@ -48,7 +48,7 @@ const App = () => {
                 <div className="ml-2"><a href="tel:07815006469" className="transition-colors hover:text-indigo-500 dark:hover:text-indigo-300">07815006469</a></div>
               </div>
             </div>
-            <div className='md:flex-1 my-2 p-4 w-full md:w-60 items-center shadow-lg dark:shadow-white/20 bg-indigo-500 dark:bg-indigo-700 text-white font-semibold rounded-lg space-y-2'>
+            <div className='md:flex-1 my-2 p-5 w-full md:w-60 items-center shadow-lg dark:shadow-white/20 bg-indigo-500 dark:bg-indigo-700 text-white font-semibold rounded-lg space-y-2'>
               <div>MSc Information Technology <span className='text-neutral-400'><a href="https://www.uwe.ac.uk/" target='_blank' rel="noopener noreferrer">(UWE)</a></span></div>
               <div>MSc Medical Physics <span className='text-neutral-400'><a href="https://www.open.ac.uk/" target='_blank' rel="noopener noreferrer">(OU)</a></span></div>
               <div>BSc Physics with Astrophysics <span className='text-neutral-400'><a href="https://www.bristol.ac.uk/" target='_blank' rel="noopener noreferrer">(University of Bristol)</a></span></div>
@@ -249,10 +249,10 @@ const App = () => {
                   
                   <div className='mb-5'>
                     <h2 className='font-semibold pb-1'>Web Applications</h2>
-                    <div className="text-sm text-cyan-500 dark:text-cyan-300 font-semibold tracking-wide">
+                    <div className="text-base text-cyan-500 dark:text-cyan-300 font-semibold tracking-wide">
                       {websites.map((web, id) => (
                         <div key={id} className="py-0.5">
-                          <a className='flex items-center px-4 py-1 rounded-md text-cyan-500 dark:text-cyan-300 transition-all duration-300 hover:bg-cyan-500/10 hover:translate-x-0.5' href={web.url} target="_blank" rel="noopener noreferrer">
+                          <a className='flex items-center px-3 py-1 rounded-md text-cyan-500 dark:text-cyan-300 transition-all duration-300 hover:bg-cyan-500/10 hover:translate-x-0.5' href={web.url} target="_blank" rel="noopener noreferrer">
                             {web.name}
                           </a>
                         </div>
