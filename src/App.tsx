@@ -27,7 +27,7 @@ const App = () => {
         <div className="max-w-5xl">
           
           <aside className='relative flex flex-col md:flex-row mb-4'>
-            <div className='flex-1 m-2 md:my-10 text-center items-center font-semibold text-3xl sm:text-4xl md:text-5xl text-indigo-500 dark:text-indigo-200'>
+            <div className='flex-1 m-2 md:my-10 text-center items-center font-semibold text-4xl sm:text-6xl md:text-5xl text-indigo-500 dark:text-indigo-200'>
               <div className='p-3'>DAVID J.J.</div>
               <div className='p-3'>BATTYE</div>
             </div>
