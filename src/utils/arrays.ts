@@ -38,13 +38,13 @@ export const interestingJobs = [
 ];
 
 export const websites = [
-  { name: 'Awesome Portfolio', url: 'https://awesome-portfolio-two.netlify.app/' },
-  { name: 'HelpMe-Car', url: 'https://helpme-car.herokuapp.com/' },
+  { name: 'Weather Window', url: 'https://theweatherwindow.netlify.app/' },
   { name: 'Crypto Dashboard / Tracker', url: 'https://aegiscrypto.netlify.app/' },
+  { name: 'HelpMe-Car', url: 'https://helpme-car.herokuapp.com/' },
+  { name: 'Awesome Portfolio', url: 'https://awesome-portfolio-two.netlify.app/' },
   { name: 'Aegis-Aether-Cyber-HUD', url: 'https://github.com/usernameistai/Aegis-Aether-Cyber-HUD/releases/tag/v2.1.0' },
   { name: 'PeakyBlogger', url: 'https://peakyblogger-d362176b187f.herokuapp.com/' },
   { name: 'D3 Chloropleth Map USA', url: 'https://fcc-choropleth-map.onrender.com/' },
-  { name: 'Weather-Orr-Not?', url: 'https://weather-orr-not.netlify.app/' },
   { name: 'Butt Scratcher', url: 'https://butt-scratcher.netlify.app/' },
   { name: 'David BP Health Tacker', url: 'https://david-bp-health.netlify.app/' },
 ];
